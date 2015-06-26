@@ -1,5 +1,12 @@
 #Elo Rating PHP
 A PHP class which implements the [Elo rating system](http://en.wikipedia.org/wiki/Elo_rating_system).
+#[database](http://stackoverflow.com/a/26043945/5053726)    
+Basically, there will be two tables: players(name,whatever else,rating) and games(player_id_white,player_id_black,result=1,0,-1,date).  
+
+After a game has been deleted, reset all players' ratings back to the initial value and recalculate them from scratch. Just read the games table sorted by date, update ratings in memory and finally write them back to the players table.  
+
+This is somehow straightforward and crude solution, but should work for you unless (until) you have thousands of players and millions of games.  
+
 
 #Usage
 
