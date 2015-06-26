@@ -9,8 +9,9 @@ This is somehow straightforward and crude solution, but should work for you unle
 
 http://stackoverflow.com/a/26043945/5053726
 
-#initialization(K-value)   
-http://stackoverflow.com/a/26043945/5053726  
+#initialization(K-value)    
+每位参赛者最初都被赋予相同的初始实力值，这个值在不同类别的系统中都不同，大概是由1300至1600不等。
+
 在美国西洋棋联盟（USCF）的排名中，主要採用三级制，根据参赛者的实力值，分成三个领域来决定K-value：   
 * 实力值0-2099者，K-value为32； 
 * 实力值2100-2399者，K-value为24； 
@@ -24,7 +25,10 @@ http://stackoverflow.com/a/26043945/5053726
 FIDE对K值的设定如下：  
 * 首30局，K-value为25； 
 * 实力值不足2400的，K-value为15； 
-* 实力值到达2400并已进行超过30局的，K-value为10。以后K-value不会再改变。 
+* 实力值到达2400并已进行超过30局的，K-value为10。以后K-value不会再改变。  
+
+http://blog.csdn.net/inte_sleeper/article/details/7527529  
+http://stackoverflow.com/a/26043945/5053726    
 
 
 #Usage
